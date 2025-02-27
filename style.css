@@ -1005,3 +1005,173 @@ z-index: 999999!important;
     }
     
 }
+
+
+/* For tablets and medium devices */
+@media (max-width: 1024px) {
+    .content {
+        font-size: 2.5em;
+        padding: 15vh 5vw;
+        line-height: 80px;
+    }
+
+    .hero-section {
+        width: 85%;
+        margin-left: 15%;
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+
+    .video_container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .play-btn {
+        width: 15vw;
+        height: 15vw;
+        left: 50%;
+        top: 50%;
+    }
+
+    .sidenav .sidecontainer {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .sidenavleft h1 {
+        font-size: 9vw;
+        line-height: 12vh;
+    }
+
+    .sidenavright {
+        row-gap: 5vw;
+    }
+
+    .navbarright h3 {
+        font-size: 1.5vw;
+    }
+
+    .section-third-h1container {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 4vw;
+    }
+
+    .flex-innercontainer {
+        width: 80%;
+        height: auto;
+    }
+
+    .flex-circle {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .content {
+        font-size: 2em;
+        padding: 10vh 5vw;
+        line-height: 60px;
+    }
+
+    .hero-section {
+        width: 95%;
+        margin-left: 5%;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .video_container {
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+    }
+
+    .play-btn {
+        width: 18vw;
+        height: 18vw;
+        left: 50%;
+        top: 50%;
+    }
+
+    .sidenav {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .sidenav .logocontainer {
+        width: 90%;
+        padding: 2vw 5vw;
+    }
+
+    .sidenav .sidecontainer {
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .sidenavleft h1 {
+        font-size: 11vw;
+        line-height: 10vh;
+    }
+
+    .navbarright h3 {
+        font-size: 2.5vw;
+    }
+
+    .section-third-h1container {
+        width: 95%;
+        margin-left: 2.5%;
+        height: auto;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 3vw;
+    }
+
+    .flex-innercontainer {
+        width: 100%;
+        height: auto;
+        margin: 5vw 0;
+    }
+
+    .flex-circle {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .section-fourth-container {
+        width: 90%;
+        margin-left: 5%;
+        padding: 6vw 2vw;
+    }
+
+    .section-fourth-container h1 {
+        font-size: 6vw;
+    }
+
+    .footer-div {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+    }
+
+    .footer-div h1 {
+        font-size: 6vw;
+    }
+}
